@@ -1,0 +1,33 @@
+name: universal_chat
+description: The UniversalChatbot chat as a native screen in Flutter apps, with signed-in users, visitor attributes and push.
+version: 0.9.0
+homepage: https://universalchatbot.com
+repository: https://github.com/radioactive-labs/universalchat-mobile/tree/main/flutter/universal_chat
+issue_tracker: https://github.com/radioactive-labs/universalchat-mobile/issues
+documentation: https://universalchatbot.com/docs/deployments/mobile
+topics:
+  - chat
+  - customer-support
+  - chatbot
+
+environment:
+  sdk: ^3.5.0
+  flutter: '>=3.24.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: com.universalchatbot.universal_chat
+        pluginClass: UniversalChatPlugin
+      ios:
+        pluginClass: UniversalChatPlugin

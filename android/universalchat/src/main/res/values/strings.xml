@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="universalchat_channel_name">Support replies</string>
+    <string name="universalchat_new_reply">New reply</string>
+    <string name="universalchat_default_title">Chat with us</string>
+    <string name="universalchat_input_hint">Type a message</string>
+    <string name="universalchat_send">Send</string>
+    <string name="universalchat_close">Close</string>
+    <string name="universalchat_restart">Start a new conversation</string>
+    <string name="universalchat_unavailable">Chat isn\'t available right now.</string>
+    <string name="universalchat_retry">Tap to retry</string>
+    <string name="universalchat_load_older">Load earlier messages</string>
+    <string name="universalchat_agent">Agent</string>
+    <string name="universalchat_user_info_title">Before we start</string>
+    <string name="universalchat_user_info_submit">Continue</string>
+    <string name="universalchat_user_info_skip">Skip</string>
+    <string name="universalchat_field_name">Name</string>
+    <string name="universalchat_field_email">Email</string>
+    <string name="universalchat_field_phone">Phone</string>
+    <string name="universalchat_rating_scale">%1$d out of 5</string>
+    <string name="universalchat_open_attachment">Open attachment</string>
+</resources>
